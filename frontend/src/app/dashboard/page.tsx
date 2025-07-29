@@ -1,5 +1,12 @@
+import ButtonDemo from "@/components/ui/atoms/Button/ButtonDemo";
+import InputDemo from "@/components/ui/atoms/Input/InputDemo";
+
 const DashboardPage = () => {
-  return <div>DashboardPage</div>;
+  return <>
+  <InputDemo/>
+  <ButtonDemo/>
+  
+  </>;
 };
 
 export default DashboardPage;
