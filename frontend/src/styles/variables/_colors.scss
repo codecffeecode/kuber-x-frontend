@@ -1,0 +1,45 @@
+// Primary Colors
+$primary-color: #007bff;
+$primary-hover: #0056b3;
+$primary-light: #e3f2fd;
+
+// Secondary Colors
+$secondary-color: #6c757d;
+$secondary-hover: #545b62;
+
+// Text Colors
+$text-primary: #333;
+$text-secondary: #666;
+$text-muted: #999;
+$text-light: #fff;
+
+// Background Colors
+$bg-primary: #fff;
+$bg-secondary: #f8f9fa;
+$bg-overlay: rgba(0, 0, 0, 0.5);
+
+// Border Colors
+$border-light: #eee;
+$border-medium: #ddd;
+$border-dark: #ccc;
+
+// Status Colors
+$success-color: #28a745;
+$warning-color: #ffc107;
+$error-color: #dc3545;
+$info-color: #17a2b8;
+
+// Interactive Colors
+$link-color: $primary-color;
+$link-hover: $primary-hover;
+$button-bg: $primary-color;
+$button-hover: $primary-hover;
+
+// Shadow Colors
+$shadow-light: rgba(0, 0, 0, 0.1);
+$shadow-medium: rgba(0, 0, 0, 0.2);
+$shadow-dark: rgba(0, 0, 0, 0.3);
+
+// Logo Colors
+$logo-primary: #000;
+$logo-accent: $primary-color; 

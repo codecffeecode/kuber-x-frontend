@@ -1,0 +1,65 @@
+// Breakpoint Variables
+$iphonex: 376px;
+$mobile-small: 431px;
+$medium: 768px;
+$large: 1024px;
+$x-large: 1024px;
+$xx-large: 1500px;
+$ipad-pro: 1024px;
+$full-width: 1500px;
+$mobilexsmall: 375px;
+
+// Mixins for responsive design
+@mixin mobile-small {
+  @media (max-width: $mobile-small) {
+    @content;
+  }
+}
+
+@mixin mobile-xsmall {
+  @media (max-width: $mobilexsmall) {
+    @content;
+  }
+}
+
+@mixin iphone-x {
+  @media (max-width: $iphonex) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: $medium) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $large) {
+    @content;
+  }
+}
+
+@mixin ipad-pro {
+  @media (max-width: $ipad-pro) {
+    @content;
+  }
+}
+
+@mixin x-large {
+  @media (min-width: $x-large) {
+    @content;
+  }
+}
+
+@mixin xx-large {
+  @media (min-width: $xx-large) {
+    @content;
+  }
+}
+
+@mixin full-width {
+  @media (min-width: $full-width) {
+    @content;
+  }
+} 

@@ -1,0 +1,50 @@
+@import '../../../styles/variables/breakpoints';
+@import '../../../styles/variables/colors';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    &__logo {
+        font-size: 24px;
+        font-weight: 500;
+        color: $logo-primary;
+
+        &__span {
+            color: $logo-accent;
+            font-size: 32px;
+        }
+    }
+
+    nav {
+        .nav__items {
+            display: flex;
+            gap: 10px;
+
+            @include tablet {
+                display: none;
+            }
+        }
+    }
+
+    &__hamburger {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        color: $text-primary;
+        font-size: 20px;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: $primary-color;
+        }
+
+        @include tablet {
+            display: block;
+        }
+    }
+}
